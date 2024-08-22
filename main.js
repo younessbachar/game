@@ -46,7 +46,7 @@ function winner(){
         end(3,5,7)
     }
     else if(squars.every(square => square !== "")){
-        title.innerHTML = "is teal"
+        title.innerHTML = "IS A DRAW"
         replay()
     }
    
